@@ -1,0 +1,65 @@
+html{font-size: calc(0.43931535269709543rem + 0.41493775933609955vw);}
+
+*{margin:0;padding:0;font:inherit;color:inherit;}
+*, :after, :before {box-sizing:border-box;flex-shrink:0;}
+:root {-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;cursor:default;line-height:1.5;overflow-wrap:break-word;-moz-tab-size:4;tab-size:4}
+html, body {height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+
+
+ul{list-style: none;}
+fieldset{border: 0;} input{border: 0;}
+
+
+
+
+body{
+  color: #0E0E0E; 
+  background: #F5F4EF;
+  font-size: 1.25rem;
+  -webkit-font-smoothing: antialiased;
+  /* font-family: "Cardinal Fruit Medium"; */
+  /* font-family: "Cardinal Fruit Italic"; */
+  /* font-family: 'Manrope', 'sans-serif'; */
+  font-family: 'Pretendard-Regular','sans-serif';
+  /* font-family: Kollinuky Skelicia; */
+ 
+  /* min-width: 1220px; */
+
+}
+
+
+
+
+/* @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css'); */
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url('https://fonts.cdnfonts.com/css/kollinuky-skelicia');
+@font-face {
+  font-family: "Cardinal Fruit Medium";
+  src: url("https://db.onlinewebfonts.com/t/2bfe809f5a433474ec388de3ccb69e73.eot");
+  src: url("https://db.onlinewebfonts.com/t/2bfe809f5a433474ec388de3ccb69e73.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/2bfe809f5a433474ec388de3ccb69e73.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/2bfe809f5a433474ec388de3ccb69e73.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/2bfe809f5a433474ec388de3ccb69e73.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/2bfe809f5a433474ec388de3ccb69e73.svg#Cardinal Fruit Medium")format("svg");
+}
+
+
+@font-face {
+  font-family: "Cardinal Fruit Italic";
+  src: url("https://db.onlinewebfonts.com/t/742dcddc06afc2dfc1ecedd0a42adca0.eot");
+  src: url("https://db.onlinewebfonts.com/t/742dcddc06afc2dfc1ecedd0a42adca0.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/742dcddc06afc2dfc1ecedd0a42adca0.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/742dcddc06afc2dfc1ecedd0a42adca0.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/742dcddc06afc2dfc1ecedd0a42adca0.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/742dcddc06afc2dfc1ecedd0a42adca0.svg#Cardinal Fruit Italic")format("svg");
+}

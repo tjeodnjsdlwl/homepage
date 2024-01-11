@@ -1,0 +1,455 @@
+@import './fonts.css';
+@import './reset.css';
+@import './common.css';
+
+
+
+
+
+.container{}
+
+.inner{
+  padding: 0 70px;
+}
+
+.sc-title{
+  margin: 50px auto 0;
+  border-bottom: 1px solid #e5e5e5;
+  height: 320px;
+}
+.sc-title .headline{
+  z-index: 100;
+}
+.sc-title .headline .title{
+  margin-top: 8px;
+  font-family: Manrope;
+  font-size: 140px;
+  font-weight: 800;
+  z-index: 100;
+}
+.sc-title .headline .subtitle{
+  margin-top: 6px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.sc-title .tag01{
+  position: absolute;
+  border-radius: 20px;
+  transform: rotate(-18.538deg);
+  background: #FF9CDD;
+  padding: 19px 30px;
+  justify-content: center;
+  align-items: center;
+  color: #0E0E0E;
+  font-size: 18px;
+  font-weight: 500;
+  left: 660px;
+  top: 270px;
+}
+.sc-title .tag02{
+  position: absolute;
+  left: 775px;
+  top: 150px;
+  animation-name: rotatebox03;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotatebox03{
+0%{
+  transform: rotate(0);
+}
+100%{
+  transform: rotate(360deg);
+}
+}
+.sc-title .tag03{
+  position: absolute;
+  transform: rotate(90deg);
+  left: 915px;
+  top: 195px;
+}
+.sc-work .filter-group{
+  display: flex;
+  gap: 620px;
+  margin-top: 70px;
+  align-items: center;
+}
+.sc-work .filter-group .gray{
+  color: #606060;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sc-work .filter-group .all{
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 9px;
+}
+.sc-work .filter-group .btn-area{
+  font-family: Manrope;
+  display: flex;
+  gap: 12px;
+  font-size: 22px;
+}
+.sc-work .filter-group button{
+  display: inline-flex;
+  padding: 17px 30px;
+  border-radius: 50px;
+  border: 1px solid #CECECE;
+  justify-content: center;
+  align-items: center;
+}
+.sc-work .filter-group button:hover{
+  color: #7c7c7c;
+  border: 1px solid #e4e4e4;
+}
+.sc-work .filter-group .on{
+  border: 1px solid #2ED06E;
+  background: #2ED06E;
+  color: #FFF;
+  font-weight: 600;
+}
+.sc-work .filter-group .on:hover{
+  border: 1px solid #55df8c;
+  background: #ffffff;
+  color: #2ED06E;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+.sc-work .project-group.on{
+  display: block;
+}
+.sc-work .project-group{
+  display: none;
+}
+.sc-work .work-list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 130px 60px;
+  max-width: 1580px;
+  margin: 90px auto 0px;
+}
+.sc-work .work-item{
+  display: none;
+}
+.sc-work .work-item.on{
+  display: block;
+}
+.sc-work .work-item [data-scroll-work=""]{
+  display: block;
+}
+.sc-work .work-item [data-scroll-content00=""]{
+  display: block;
+}
+.sc-work .work-item [data-scroll-content01=""]{
+  display: block;
+}
+.sc-work .work-item a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sc-work .work-item .img-box{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 100%;
+  background: #f00;
+  border-radius: 32px;
+}
+.sc-work .work-item .img-box.big{
+  padding-bottom: 130%;
+}
+.sc-work .work-item img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: .4s cubic-bezier(.39,.575,.565,1);
+}
+.sc-work .work-item img:hover{
+  transform: scale(1.13);
+  transition: .4s cubic-bezier(.39,.575,.565,1);
+}
+
+
+
+.sc-work .work-item .text-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  align-items: center;
+}
+.sc-work .work-item .text-left{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.sc-work .work-item .text-left .subtitle{
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #3e3e3e;
+}
+.sc-work .work-item .text-left .title{
+  font-family: Pretendard;
+  font-size: 22px;
+  font-weight: 500;
+}
+.sc-work .work-item .text-right{
+  width: 72px;
+  height: 72px;
+  border: 1px solid #CECECE;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sc-work .work-item .text-right .number{
+  text-align: center;
+  color: #1c1c1c;
+  font-family: "Cardinal Fruit Italic";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  font-weight: bold;
+}
+
+
+
+
+
+.sc-aside{
+  width: 100%;
+  height: 84px;
+  background: #2ED06E;
+  margin-top: 180px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+@keyframes marquee {
+  from {transform: translateX(0);}
+  to {transform: translateX(-100%);}
+}
+.sc-aside .text-box{
+  animation: marquee 20s linear infinite;
+  will-change: transform;
+}
+.sc-aside .text-area::after{
+  background: url(/img/icon_proj_03.svg) no-repeat center;
+  content: "";
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin: 0 36px 0;
+  vertical-align: -10px;
+}
+.sc-aside .text-area span{
+  color: #FFF;
+  font-family: "Cardinal Fruit Medium";
+  font-size: 30px;
+  font-weight: 400;
+}
+.sc-aside .text-area span .italic{
+  font-family: "Cardinal Fruit Italic";
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+/* 프로젝트 :1300사이즈 */
+
+@media (max-width:1300px) {
+  
+  .sc-title{
+    height: 300px;
+  }
+  .sc-title .headline .title{
+    font-size: 110px;
+  }
+  .sc-title .headline .subtitle{
+    font-size: 18;
+    margin-top: 4px;
+  }
+  .sc-title .tag01{
+    top: 246px;
+    left: 542px;
+    padding: 16px 27px;
+    font-size: 17px;
+  }
+  .sc-title .tag02{
+    top: 130px;
+    left: 626px;
+    width: 100px;
+    height: 100px;
+  }
+  .sc-title .tag03{
+    top: 175px;
+    left: 790px;
+    width: 50px;
+    height: 50px;
+  }
+  .sc-work .filter-group{
+    gap: 0;
+    justify-content: space-between;
+  }
+  .sc-work .filter-group .btn-area{
+    font-size: 19px;
+  }
+  .sc-work .work-list{
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+  
+}
+
+
+/* 프로젝트 :768사이즈 */
+
+@media (max-width:768px) {
+  .container {
+    padding: 0px;}
+  .inner{
+    padding: 0 20px;
+  }
+  
+  .sc-title{
+    position: relative;
+    margin-top: 0px;
+    height: 140px;
+    margin: 0px;
+  }
+  .sc-title .headline .title{
+    margin-top: 4px;
+    font-size: 50px;
+  }
+  .sc-title .headline .subtitle{
+    margin-top: 2px;
+    font-size: 14px;
+  }
+  .sc-title .tag01{
+    position: absolute;
+    border-radius: 10px;
+    transform: rotate(-18.538deg);
+    background: #FF9CDD;
+    padding: 9px 11px;
+    justify-content: center;
+    align-items: center;
+    color: #0E0E0E;
+    font-size: 10px;
+    font-weight: 500;
+    top: 74px;
+    left: 192px;
+  }
+  .sc-title .tag02{
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 50px;
+    height: 50px;
+  }
+  .sc-title .tag03{
+    display: none;
+  }
+  .sc-work .filter-group{
+    display: flex;
+    gap: 0px;
+    margin-top: 32px;
+    align-items: center;
+  }
+  .sc-work .filter-group .filter-area{
+    display: none;
+  }
+  .sc-work .filter-group .btn-area{
+    gap: 6px;
+    font-size: 14px;
+  }
+  .sc-work .filter-group button{
+    padding: 14px 20px;
+    border-radius: 50px;
+  }
+
+  
+  
+
+  .sc-work .work-list{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 44px;
+    margin: 40px auto 0px;
+  }
+  .sc-work .work-item .img-box{
+    border-radius: 24px;
+  }
+  .sc-work .work-item .text-box{
+    margin-top: 20px;
+    padding: 0 4px;
+  }
+  .sc-work .work-item .text-left{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .sc-work .work-item .text-left .subtitle{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .sc-work .work-item .text-left .title{
+    font-size: 17px;
+    font-family: 'Pretendard-Regular','sans-serif';
+    font-weight: 500;
+  }
+  .sc-work .work-item .text-right{
+    width: 48px;
+    height: 48px;
+  }
+  .sc-work .work-item .text-right .number{
+    font-family: "Cardinal Fruit Italic";
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+  
+  .sc-aside{
+    height: 48px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .sc-aside .text-area::after{
+    background: url(/img/mobile_icon_proj_03.svg) no-repeat center;
+    width: 14px;
+    height: 14px;
+    margin: 0 14px 0;
+    vertical-align: -3px;
+  }
+  .sc-aside .text-area span{
+    font-size: 16px;
+  }
+ 
+  
+}

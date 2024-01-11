@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- css -->
+  <link href="https://db.onlinewebfonts.com/c/742dcddc06afc2dfc1ecedd0a42adca0?family=Cardinal+Fruit+Italic" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/2bfe809f5a433474ec388de3ccb69e73?family=Cardinal+Fruit+Medium" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/kollinuky-skelicia" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Federant&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css" />
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+ 
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  
+
+  <script src="./assets/js/layout.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+
+</head>
+
+<body>
+
+  <div class="mouse"></div>
+  <div class="mouse-mid"></div>
+  <div class="mouse-guide"></div>
+
+  <div class="wrapper">
+    <header class="header mobile">
+
+      <h1><a href="" class="link">Personal portfolio © 2023 - 7 Projects<span class="blind">portfolio 2023</span></a>
+      </h1>
+
+      <div class="time" id="time"></div>
+
+      <div class="mail">
+        <span>say hi — </span>
+        <a href="" class="link-mail">hyeyoung6257@naver.com</a>
+      </div>
+
+    </header>
+
+   
+    
+    
+    <main class="container main">
+    
+      <section class="sc-about">
+    
+        <h2 class="title desktop">
+    
+          <div data-scroll-text="" class="first">
+            <span class="last">
+              <span class="point">L</span>
+              ove Creating
+            </span>
+              <br>
+          </div>
+    
+          <span data-scroll-text="" class="second"><span>Experiences</span></span>
+          <span data-scroll-text="" class="third"><span><span class="italic">from</span>&nbsp;Idea <span class="italic">&nbsp;to</span>&nbsp;Design</span></span>
+        
+        </h2>
+        
+        <h2 class="title mobile">
+    
+          <div data-scroll-text="" class="first">
+            <span class="last"><span class="point">L</span>ove Creating</span><br>
+          </div>
+    
+          <span data-scroll-text="" class="second"><span>Experiences</span></span>
+          <span data-scroll-text="" class="third"><span><span class="italic">from</span>&nbsp;Idea<br></span></span>
+          <span data-scroll-text="" class="fourth"><span><span class="italic">to</span>&nbsp;Design</span></span>
+
+          <div class="heart"></div>
+
+        
+        </h2>
+
+        <div class="heart"></div>
+
+
+
+        <div class="about-area">
+          <p>
+            <span data-scroll-text=""><span>‘끌리는 사람은 1%가 다르다’라고 생각합니다.</span></span>
+            <span data-scroll-text=""><span>1%는 외모가 아니라, 행동에 있어서 사람들에게 믿음과</span></span>
+             <span data-scroll-text=""><span>신뢰 등 특별함이 있어야 한다고 생각합니다.</span></span>
+            </p>
+    
+          <a href="" class="btn-black">
+            <span class="name">About me</span>
+          </a>
+    
+        </div>
+    
+      </section>
+    
+
+
+
+      <section class="sc-slider desktop">
+        <ul class="slider-list" id="slider-desktop">
+          <li class="slider-item"><img
+              src="/img/main_03.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_02.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_01.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_04.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_05.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_03.png"
+              alt=""></li>
+        </ul>
+      </section>
+
+
+      <section class="sc-slider mobile">
+        <ul class="slider-list" id="slider-mobile">
+          <li class="slider-item"><img
+              src="/img/main_03.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_02.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_01.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_04.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_05.png"
+              alt=""></li>
+          <li class="slider-item"><img
+              src="/img/main_03.png"
+              alt=""></li>
+        </ul>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section class="sc-project">
+
+       
+        <div class="headline">
+          <span data-scroll-text="">
+            <span>
+              <h2 class="small">Showing</h2>
+            </span>
+          </span>
+
+          <div class="title-area">
+            <div class="wrap">
+              <h2 class="title">PROJECTS</h2>
+              <span class="tag01">Ready!</span>
+              <img class="tag02" src="/img/icon_effect_01.svg" alt="">
+              <div class="tag03"><img src="/img/icon_effect_03.svg" alt=""></div>
+            </div>
+          </div>
+
+          <span data-scroll-text="">
+            <span>
+              <p class="subtitle">Look at the various projects</p>
+            </span>
+          </span>
+        </div>
+    
+   
+        
+        
+        <ul class="proj-list">
+    
+          <span data-scroll-text="">
+            <li class="proj-item">
+              <a href="" id="ListHover01">
+                <div class="list-left">
+                  <div class="tag-gray"><span>personal project</span></div>
+                  <div class="left-area">
+                    <span>Cdit<i class="point"></i>온라인 제작 케이크 주문서비스</span>
+                  </div>
+                </div>
+
+
+
+                <div class="list-right">
+                  <span class="project">UX/UI Design</span>
+                  <span class="period">Jan. 2023</span>
+                  <div class="arrow"></div>
+                </div>
+              </a>
+            </li>
+          </span>
+
+          <div class="cursor_div">
+            <img class="hover01" src="./img/pj_a_02.png" alt="">
+          </div>
+    
+          <span data-scroll-text="">
+            <li class="proj-item">
+              <a href="" id="ListHover02">
+                <div class="list-left">
+                  <div class="tag-gray"><span>personal project</span></div>
+                  <div class="left-area">
+                    <span>Rhythm<i class="point"></i>취미 공유 서비스</span>
+                  </div>
+                </div>
+                <div class="list-right">
+                  <span class="project">UX/UI Design</span>
+                  <span class="period">Apr. 2023</span>
+                  <div class="arrow"></div>
+                </div>
+              </a>
+            </li>
+          </span>
+          <div class="cursor_div">
+            <img class="hover02" src="./img/pj_b_02.png" alt="">
+          </div>
+    
+          <span data-scroll-text="">
+            <li class="proj-item">
+              <a href="" id="ListHover03">
+                <div class="list-left">
+                  <div class="tag-gray"><span>CCBOOUM</span></div>
+                  <div class="left-area">
+                    <span>CCBOOUM<i class="point"></i>개인 맞춤형 화장품</span>
+                  </div>
+                </div>
+                <div class="list-right">
+                  <span class="project">UX/UI, Branding </span>
+                  <span class="period">May. 2020 - Dec. 2020</span>
+                  <div class="arrow"></div>
+                </div>
+              </a>
+            </li>
+          </span>
+          <div class="cursor_div">
+            <img class="hover03" src="./img/pj_d_02.png" alt="">
+          </div>
+    
+          <span data-scroll-text="">
+            <li class="proj-item">
+              <a href="" id="ListHover04">
+                <div class="list-left">
+                  <div class="tag-gray"><span>SAMSUNG</span></div>
+                  <div class="left-area">
+                    <span>LED Case theme design</span>
+                  </div>
+                </div>
+                <div class="list-right">
+                  <span class="project">UI Design</span>
+                  <span class="period">Jan. 2019 - Dec. 2021</span>
+                  <div class="arrow"></div>
+                </div>
+              </a>
+            </li>
+          </span>
+          <div class="cursor_div">
+            <img class="hover04" src="./img/pj_c_02.png" alt="">
+          </div>
+    
+        </ul>
+    
+
+
+
+
+        <div class="allproj-area">
+    
+          <p>더 자세히 알아보실래요? :)</p>
+
+          <a href="" class="btn-white">
+            <span class="link">All Project</span>
+          </a>
+         
+    
+        </div>
+
+
+
+      </section>
+    
+    
+
+
+
+
+
+      
+    
+      <style>
+            
+      </style>
+
+
+      <section class="sc-keyword">
+
+        <div class="headline">
+          <em class="small">Core</em>
+          <div data-scroll-text="">
+            <div>
+              <h2 class="title">KEYWORDS</h2>
+           
+            </div>
+          </div>
+          <p class="subtitle">The only way to do great work is to love what you do</p>
+
+          <img src="/img/icon_effect_03.svg" alt="" class="img img1">
+          <img src="/img/icon_effect_03.svg" alt="" class="img img2">
+          <img src="/img/icon_effect_03.svg" alt="" class="img img3">
+        </div>
+
+        <div class="keyword-box desktop">
+          <img src="./img/main_keywords.svg" alt="">
+        </div>
+        <div class="keyword-box mobile">
+          <img src="./img/mobile_main_keywords.svg" alt="">
+        </div>
+
+
+
+
+
+      </section>
+    
+    </main>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <footer class="footer">
+
+
+      <div class="footer-desktop">
+        <div class="left-area">
+          <h2>Let's turn some <span class="italic">heads</span>!</h2>
+          <address class="addr-area">
+            <span>수원시 영통구 광교중앙역 SK VIEW</span>
+            <span>+82 10-6776-4608</span>
+            <span>hyeyoung6257@naver.com</span>
+          </address>
+        </div>
+        <div class="right-area">
+          <div class="list">
+            <button>Home</button>
+            <button>About me</button>
+            <button>Project</button>
+          </div>
+          <div class="media">
+            <a href="">Instagram</a>
+            <a href="">E-mail</a>
+            <span>Personal portfolio © 2024</span>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="footer-mobile">
+        <div class="left-area">
+          <h2>Let's turn some <span class="italic">heads</span>!</h2>
+          <address class="addr-area">
+            <span>수원시 영통구 광교중앙역 SK VIEW</span>
+            <span>+82 10-6776-4608</span>
+            <span>hyeyoung6257@naver.com</span>
+          </address>
+
+        </div>
+      
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="group-cate desktop">
+        <span class="progress-bar" id="progressBar"></span>
+        <span class="desktop"><a href="" id="topBtn">Personal Portfolio © 2024</a></span>
+        <span class="desktop1300"><a href="" id="topBtn">Portfolio © 2024</a></span>
+        <span class="desktop1490"><a href="" id="topBtn">Personal Portfolio © 2024</a></span>
+        <div class="cate-area">
+          <a href=""><span>About me</span></a>
+          <a href=""><span>All Project</span></a>
+        </div>
+        <div class="btn-footer">
+          <a href="" class="link">Contact me</a>
+        </div>
+
+      </div>
+
+
+    
+      <!-- <div class="subbar">
+        <a href="">Home</a>
+        <a href="">About me</a>
+        <a href="">All Project</a>
+      </div> -->
+
+      <div class="group-cate mobile">
+        
+        <span class="progress-bar" id="progressBar"></span>
+        
+        <div class="menu-box">
+          
+         
+          <button>Menu</button>
+        
+        </div>
+       
+
+
+      
+        <div class="btn-footer">
+          <a href="" class="link">Contact me</a>
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
+  
+  
+  
+  </div>
+
+
+
+</body>
+
+</html>
